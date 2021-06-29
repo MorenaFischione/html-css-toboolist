@@ -66,12 +66,28 @@ li {
    margin: 10px;
 }
 
+.sign {
+    border-radius: 20px;
+    margin: 25px 10px;
+}
+
 .check {
     color: green;
     border: 1px solid green;
-    border-radius: 15px;
-    margin: 30px;
 }
+
+.cross {
+    color: red;
+    border: 1px solid red;
+}
+
+.text-ul {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+
+}
+
 .link {
     color: white;
     border-radius: 30px;
