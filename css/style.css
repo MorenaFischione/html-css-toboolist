@@ -5,101 +5,84 @@
 }
 
 body {
-    background-color: rgb(209, 217, 224);
+    background-color: rgb(211, 214, 214);
 }
 
 header {
+    width: 100%;
     height: 70px;
     background-color: white;
+    padding: 10px 20px;
+    margin-bottom: 50px;;
 }
 
-main {
-    margin: 5% 10%;
-    background-color: white;
-}
-
-nav {
-    height: 5%;
-    margin-left: 3%;
-}
-
-li {
+ul{
     list-style-type: none;
 }
 
+li{
+    margin: 15px 0;
+}
 
-#logo {
-    margin: 10px;
+.padding-sides-50 {
+    padding: 0 50px;
+}
+
+.logo-header {
+    height: 100%;
+    vertical-align: middle;
+}
+
+.title-header {
+    font-size: 25px;;
+    font-weight: bold;
     vertical-align: middle;
 }
 
 .container {
-    height: 1000px;
-    margin-left: 70px;
-    margin-right: 70px;
-    padding:30px;
+    width: 75%;
+    background-color: white;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
 }
 
-
-.title {
-    font-size: 30px;
-    font-style: bold;
+.buttons-toolbar {
+    height: 50px;
+    border-bottom: 1px solid rgb(211, 214, 214);
+    line-height: 50px;
 }
 
-.button-add {
-    border-radius: 5px;
-    padding: 5px;
-    margin: 1%;
+.circle {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 0 3px;
+    margin-right: 5px;
 }
 
-
-.add-task {
-    background-color: rgb(59, 103, 184);
-}
-
-.add-section {
-    border: 1px solid gray;
-}
-
-.organization {
-   font-size: 30px; 
-   font-weight: 800;
-   margin: 20px;
-}
-
-.sign {
-    border-radius: 20px;
-    margin: 25px 10px;
-}
-
-.check {
-    color: green;
-    border: 1px solid green;
+.checked {
+    border: 1px solid rgb(52, 189, 52);
+    color: rgb(52, 189, 52);
 }
 
 .cross {
-    color: red;
     border: 1px solid red;
-}
-
-.text-ul {
-    font-size: 15px;
-    font-weight: 400;
-    margin: 20px;
-
+    color: red;
 }
 
 .link {
     color: white;
     border-radius: 30px;
     padding: 7px;
+    margin: 5px;
 }
 
 .editorial {
     background-color: rgb(65, 101, 155);
 }
 
-.Q1 {
+.q1 {
     background-color: rgb(126, 7, 126);
 }
 
